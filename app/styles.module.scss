@@ -1,0 +1,52 @@
+.page {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 750px;
+  height: 264px;
+  border-radius: 8px;
+  border: 1px solid #DEE2E6;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 36px 40px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #54595E;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #4F4F4F;
+  padding-top: 16px;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: end;
+  margin-top: 36px;
+   :first-child {
+     margin-right: 20px;
+   }
+}
+
+.button {
+  width: 180px;
+  height: 44px;
+  background: #3B75A2;
+  padding: 14px 20px;
+  color: #F5F5F5;
+  border: unset;
+  border-radius: 8px;
+  cursor: pointer;
+}
